@@ -11,10 +11,14 @@ export const TopContainer = styled.div`
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: center;
   padding: 30px;
   gap: 40px;
+
+  @media(max-width:577px){
+     flex-wrap: wrap;
+  }
 `;
 
 export const DescriptionBox = styled.div`

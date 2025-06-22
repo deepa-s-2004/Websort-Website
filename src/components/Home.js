@@ -1,4 +1,5 @@
 import { useState} from 'react'
+import {Link} from 'react-router-dom'
 import Slider from "react-slick";
 import Header from './Header'
 import HomeProject from './HomeProject'
@@ -78,9 +79,11 @@ const Home=()=>{
              At Websort, we turn digital visions into reality with expert web and app development, UI/UX design, and digital marketing. Based in Bangalore, we craft responsive websites, innovative mobile apps, and drive results through SEO, PPC, and social media strategies.
           </ParagraphCard>
           <ButtonCard>
-            <Button>
-              Contact Us
-            </Button>
+            <Link to="/contactus">
+              <Button>
+                Contact Us
+              </Button>
+            </Link>
             <Button>
               Know More
             </Button>

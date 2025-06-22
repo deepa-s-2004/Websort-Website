@@ -44,3 +44,8 @@ This project replicates the **Websort** website based on the provided Figma desi
 - Icon Integration with `react-icons`
 - Reusable Components Used
 
+## Deployement
+
+- Live link:
+   ```
+   https://websort-website-developed-by-deepa-le5qwleut.vercel.app/
